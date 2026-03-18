@@ -1,6 +1,13 @@
 # 🛍️ ShoppyGlobe – React E-Commerce Application
 
-## Github - https://github.com/code-kasha/shoppy-globe
+<p>
+  <a href="https://github.com/code-kasha">
+    <img src="https://img.shields.io/badge/GitHub-code--kasha-black?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://github.com/code-kasha/shoppy-globe">
+    <img src="https://img.shields.io/badge/Code-View%20Source-black?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 ## 📌 Project Overview
 
@@ -21,13 +28,7 @@
 - Modify quantities
 - Complete a dummy checkout process
 
-## 👨‍💻 Author : Akash Damle
-
-<p>
-  <a href="https://github.com/code-kasha">
-    <img src="https://img.shields.io/badge/GitHub-code--kasha-black?style=for-the-badge&logo=github"/>
-  </a>
-</p>
+<br>
 
 ## 🚀 Installation & Setup
 
