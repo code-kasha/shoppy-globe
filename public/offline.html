@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>No Internet</title>
+		<style>
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				min-height: 100svh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: system-ui, sans-serif;
+				background: #0f172a;
+				color: #f1f5f9;
+			}
+
+			.card {
+				text-align: center;
+				padding: 2.5rem 2rem;
+				max-width: 360px;
+			}
+
+			.icon {
+				font-size: 3.5rem;
+				margin-bottom: 1.25rem;
+			}
+
+			h1 {
+				font-size: 1.5rem;
+				font-weight: 700;
+				margin-bottom: 0.5rem;
+			}
+
+			p {
+				color: #94a3b8;
+				line-height: 1.6;
+				margin-bottom: 1.75rem;
+			}
+
+			button {
+				background: #3b82f6;
+				color: #fff;
+				border: none;
+				border-radius: 0.5rem;
+				padding: 0.65rem 1.5rem;
+				font-size: 0.95rem;
+				font-weight: 600;
+				cursor: pointer;
+				transition: background 0.2s;
+			}
+
+			button:hover {
+				background: #2563eb;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="icon">📡</div>
+			<h1>You're offline</h1>
+			<p>Check your internet connection and try again.</p>
+			<button onclick="location.reload()">Try again</button>
+		</div>
+	</body>
+</html>
+`
