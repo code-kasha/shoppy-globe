@@ -1,6 +1,6 @@
 import { Suspense } from "react"
 import Spinner from "./components/Spinner"
-import ErrorBoundary from "./components/ErrorBoundary"
+import ErrorBoundary from "./components/core/ErrorBoundary"
 
 export default function LazyRoute({ component: Component }) {
 	return (

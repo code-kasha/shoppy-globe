@@ -1,25 +1,22 @@
 import { Toaster } from "react-hot-toast"
 import { Outlet } from "react-router"
 
-//import useOnlineStatus from "./hooks/useOnlineStatus"
-//import PageTransition from "./components/PageTransition"
+import PageTransition from "./components/core/PageTransition"
 
-//import Header from "./components/Header"
-//import Footer from "./components/Footer"
-
-import "./App.css"
+import Header from "./components/page/Header"
+import Footer from "./components/page/Footer"
 
 function App() {
 	return (
-		<div className="main-container">
-			{/*<Header />*/}
-			<main>
-				{/*<PageTransition>*/}
-				<Outlet />
-				{/*</PageTransition>*/}
+		<div className="flex flex-col min-h-screen">
+			<Header />
+			<main className="flex-1">
+				<PageTransition>
+					<Outlet />
+				</PageTransition>
 				<Toaster position="top-right" />
 			</main>
-			{/*<Footer />*/}
+			<Footer />
 		</div>
 	)
 }
