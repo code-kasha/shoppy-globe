@@ -31,12 +31,14 @@ export default function ProductList() {
 	if (error) return <Error message={error} />
 
 	return (
-		<div className="">
+		<div className="space-y-4">
 			<Search />
 
-			<p className="">Product List</p>
+			<p className="text-3xl font-semibold text-center p-2 pb-6">
+				Product List
+			</p>
 
-			<div className="">
+			<div className="grid xxs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mx-auto px-2">
 				{products.map((product) => (
 					<Card key={product.id} product={product} />
 				))}
